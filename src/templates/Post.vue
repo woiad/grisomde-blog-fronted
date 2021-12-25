@@ -14,7 +14,7 @@
 <!--              <h2 class="subheading">Problems look mighty small from 150 miles up</h2>-->
               <span class="meta">Posted by
               <a href="#">Start Bootstrap</a>
-              on {{ $page.post.created_at }}</span>
+              on {{ $page.post.created_at | date('MMM DD, YYYY') }}</span>
             </div>
           </div>
         </div>
